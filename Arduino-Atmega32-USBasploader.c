@@ -58,29 +58,27 @@ static const uint8_t A7 = 24;
 // for the analog output (software PWM).  Analog input
 // pins are a separate set.
 
-// ATMEL ATMEGA8 & 168 / ARDUINO
-//
 //                  +-----\/-----+
-//            PB0  1|            |40  PC5 (AI 5)
-//      (D 0) PB1  2|            |39  PC4 (AI 4)
-//      (D 1) PB2  3|            |38  PC3 (AI 3)
-//      (D 2) PB3  4|            |37  PC2 (AI 2)
-// PWM+ (D 3) PB4  5|            |36  PC1 (AI 1)
-//      (D 4) PB5  6|            |35  PC0 (AI 0)
-//            PB6  7|            |34  GND
-//            PB7  8|            |33  AREF
-//          RESET  9|            |32  AVCC
-//            VCC 10|            |31  PB5 (D 13)
-//          XTAL2 11|            |30  PB4 (D 12)
-//          XTAL1 12|            |29  PB3 (D 11) PWM
-//      (D 7) PD7 13|            |28  PB2 (D 10) PWM
-//      (D 8) PB0 14|            |27  PB1 (D 9) PWM
-//            PB6 15|            |26  AVCC
-//            PB7 16|            |25  PB5 (D 13)
-// PWM+ (D 5) PD5 17|            |24  PB4 (D 12)
-// PWM+ (D 6) PD6 18|            |23  PB3 (D 11) PWM
-//      (D 7) PD7 19|            |22  PB2 (D 10) PWM
-//      (D 8) PB0 20|            |21  PB1 (D 9) PWM
+//      (D 0) PB0  1|            |40  PA0 (D 31)(AI 0)
+//      (D 1) PB1  2|            |39  PA1 (D 30)(AI 1)
+//      (D 2) PB2  3|            |38  PA2 (D 29)(AI 2)
+//      (D 3) PB3  4|            |37  PA3 (D 28)(AI 3)
+//      (D 4) PB4  5|            |36  PA4 (D 27)(AI 4)
+//      (D 5) PB5  6|            |35  PA5 (D 26)(AI 5)
+//      (D 6) PB6  7|            |34  PA6 (D 25)(AI 6)
+//      (D 7) PB7  8|            |33  PA7 (D 24)(AI 7)
+//          RESET  9|            |32  AREF
+//            VCC 10| ATMEGA 32A |31  GND
+//            GND 11|            |30  AVCC
+//          XTAL2 12|            |29  PC7 (D 23) PWM
+//          XTAL1 13|            |28  PC6 (D 22) PWM
+//      (D 8) PD0 14|            |27  PC5 (D 21) PWM
+//      (D 9) PD1 15|            |26  PC4 (D 20)
+//     (D 10) PD2 16|            |25  PC3 (D 19)
+//     (D 11) PD3 17|            |24  PC2 (D 18)
+//     (D 12) PD4 18|            |23  PC1 (D 17) PWM
+//     (D 13) PD5 19|            |22  PC0 (D 16) PWM
+//     (D 14) PD6 20|            |21  PD7 (D 15) PWM
 //                  +------------+
 //
 // (PWM+ indicates the additional PWM pins on the ATmega168.)
