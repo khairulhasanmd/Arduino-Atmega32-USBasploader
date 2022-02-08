@@ -1,18 +1,18 @@
 {
   "packages": [
     {
-      "name": "ARDUINO-USBASPLOADER",
+      "name": "Arduino-Atmega32-USBasploader",
       "maintainer": "Md. Khairul Hasan",
-      "websiteURL": "https://github.com/khairulhasanmd/ARDUINO-USBASPLOADER",
+      "websiteURL": "https://github.com/khairulhasanmd/Arduino-Atmega32-USBasploader",
       "email": "khairulhasanmd@gmail.com",
       "platforms": [
         {
-          "name": "ARDUINO-USBASPLOADER",
+          "name": "Arduino-Atmega32-USBasploader",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "ARDUINO-USBASPLOADER",
+          "category": "Arduino-Atmega32-USBasploader",
           "boards": [
-            {"name": "ARDUINO-USBASPLOADER"}
+            {"name": "Arduino-Atmega32-USBasploader"}
           ],
           "toolsDependencies": [
             {
@@ -28,12 +28,12 @@
           ]
         },
         {
-          "name": "ARDUINO-USBASPLOADER",
+          "name": "Arduino-Atmega32-USBasploader",
           "architecture": "avr",
           "version": "1.0.1",
-          "category": "ARDUINO-USBASPLOADER",
+          "category": "Arduino-Atmega32-USBasploader",
           "boards": [
-            {"name": "ARDUINO-USBASPLOADER"}
+            {"name": "Arduino-Atmega32-USBasploader"}
           ],
           "toolsDependencies": [
             {
@@ -49,12 +49,12 @@
           ]
         },
         {
-          "name": "ARDUINO-USBASPLOADER",
+          "name": "Arduino-Atmega32-USBasploader",
           "architecture": "avr",
           "version": "1.0.2",
-          "category": "ARDUINO-USBASPLOADER",
+          "category": "Arduino-Atmega32-USBasploader",
           "boards": [
-            {"name": "ARDUINO-USBASPLOADER"}
+            {"name": "Arduino-Atmega32-USBasploader"}
           ],
           "toolsDependencies": [
             {
@@ -70,12 +70,12 @@
           ]
         },
         {
-          "name": "ARDUINO-USBASPLOADER",
+          "name": "Arduino-Atmega32-USBasploader",
           "architecture": "avr",
           "version": "1.0.3",
-          "category": "ARDUINO-USBASPLOADER",
+          "category": "Arduino-Atmega32-USBasploader",
           "boards": [
-            {"name": "ARDUINO-USBASPLOADER"}
+            {"name": "Arduino-Atmega32-USBasploader"}
           ],
           "toolsDependencies": [
             {
