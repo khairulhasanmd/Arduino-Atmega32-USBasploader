@@ -1,16 +1,16 @@
 ############################################################
 
-Atmega32USBaspLoader.name=Atmega32 USBaspLoader
+ArduinoAtmega32USBaspLoader.name=Arduino Atmega32 USBaspLoader
 
-Atmega32USBaspLoader.upload.protocol=USBasp
-Atmega32USBaspLoader.upload.maximum_size=28672
+ArduinoAtmega32USBaspLoader.upload.protocol=USBasp
+ArduinoAtmega32USBaspLoader.upload.maximum_size=28672
 
-Atmega32USBaspLoader.bootloader.low_fuses=0xCF
-Atmega32USBaspLoader.bootloader.high_fuses=0xD8
-Atmega32USBaspLoader.bootloader.lock_bits=0xEF
+ArduinoAtmega32USBaspLoader.bootloader.low_fuses=0xCF
+ArduinoAtmega32USBaspLoader.bootloader.high_fuses=0xD8
+ArduinoAtmega32USBaspLoader.bootloader.lock_bits=0xEF
 
-Atmega32USBaspLoader.build.mcu=atmega32
-Atmega32USBaspLoader.build.f_cpu=16000000L
-Atmega32USBaspLoader.build.core=arduino
+ArduinoAtmega32USBaspLoader.build.mcu=atmega32
+ArduinoAtmega32USBaspLoader.build.f_cpu=16000000L
+ArduinoAtmega32USBaspLoader.build.core=arduino
 
 ############################################################
